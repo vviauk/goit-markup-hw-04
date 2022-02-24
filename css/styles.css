@@ -130,6 +130,12 @@ p {
 /* hero */
 
 .hero {
+  max-width: 1600px;
+  /* margin: 0, auto; */
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 92, 58, 0.4)),
+    url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   background-color: var(--hero-footer-background-color);
   text-align: center;
   padding-top: 200px;
@@ -189,6 +195,18 @@ p {
   display: flex;
   padding-left: 0;
   padding-right: 0;
+}
+
+.thumb {
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.thumb-icons:hover {
+  color: blue;
 }
 
 .advantages {
