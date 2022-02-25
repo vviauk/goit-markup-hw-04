@@ -202,9 +202,14 @@ p {
   align-items: center;
   padding-left: 100px;
   padding-right: 100px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
+.thumb-icons {
+  display: grid;
+  justify-content: center;
+}
+
 .thumb-icons:hover {
   color: blue;
 }
@@ -243,7 +248,8 @@ p {
 }
 
 .we-do,
-.our-team {
+.our-team,
+.clients-title {
   display: inline-block;
   margin-bottom: 50px;
   font-weight: 700;
@@ -289,6 +295,50 @@ p {
   color: rgba(117, 117, 117, 1);
   font-weight: normal;
 }
+.actors-links {
+
+}
+
+/* main section 4 */
+
+.clients {
+  text-align: center;
+  /* justify-content: center; */
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: rgba(245, 244, 250, 1);
+}
+.clients-list {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.clients-list-link {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.clients-logo {
+  margin-right: 30px;
+  list-style: none;
+}
+.clients-logo:last-child {
+  margin: 0;
+}
+.clients-logo-icon {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid #AFB1B8;
+  min-width: 170px;
+  min-height: 92px;
+}
+
+
+
+
 
 /* footer */
 
