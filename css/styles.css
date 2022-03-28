@@ -278,12 +278,16 @@ p {
   border-radius: 0px 0px 4px 4px;
 }
 
+
+ 
+
+
+
 .team-list:last-child {
   margin: 0;
 }
 .actor {
   padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 .actors {
@@ -296,7 +300,15 @@ p {
   font-weight: normal;
 }
 .actors-links {
-
+  margin-top: 16px;
+  padding-bottom: 31px;
+}
+.actors-icons {
+  justify-content: center;
+  margin-right: 10px;
+}
+.actors-icons:last-child {
+  margin: 0;
 }
 
 /* main section 4 */
@@ -331,14 +343,10 @@ p {
   display: flex;
   text-align: center;
   justify-content: center;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   min-width: 170px;
   min-height: 92px;
 }
-
-
-
-
 
 /* footer */
 
