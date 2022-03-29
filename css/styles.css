@@ -58,51 +58,34 @@ p {
   align-items: center;
 }
 
-.header-container .header-wrapper {
+.contacts {
   display: flex;
   align-items: center;
+  color: #757575;
 }
-
-
-.header-container .link {
+.contacts.link.phone {
+  color: #757575;
 }
-
 .header-wrapper {
   margin-left: auto;
   padding-left: 0;
   display: flex;
   align-items: center;
-
 }
 .phone {
-  margin-left: 50px;
+  margin-left: 32px;
 }
 .links {
   list-style: none;
   display: flex;
 }
+.thumb-icons {
+  margin-right: 10px;
+  fill: currentColor;
+}
 .contacts link {
-
+  display: flex;
 }
-.thumb-icons {
-
-}
-.thumb-icons-list {
-
-}
-
-
-
-
-
-.thumb-icons {
-  display: inline-block;
-  margin: 0;
-}
-
-
-
-
 
 .logo {
   margin-right: 93px;
@@ -148,8 +131,10 @@ p {
 .logo-type:focus,
 .nav-link:hover,
 .nav-link:focus,
-.contacts:hover,
-.contacts:focus,
+.contacts.link.phone:hover,
+.contacts.link.phone:focus,
+.contacts.link:hover,
+.contacts.link:focus,
 .footer-phone:hover,
 .footer-phone:focus,
 .footer-email:hover,
@@ -175,7 +160,6 @@ p {
 
 .hero {
   max-width: 1600px;
-  /* margin: 0, auto; */
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 92, 58, 0.4)),
     url(../images/background.jpg);
   background-repeat: no-repeat;
@@ -379,24 +363,6 @@ p {
   border-radius: 50%;
 }
 
-/* .icon-button {
-  border-radius: 50%;
-  fill: #fff;
-  border-color: #fff;
-} */
-
-/* .icon-button:hover,
-.icon-button:focus {
-  color: #2196f3;
-} */
-
-/* .actors-icons:last-child {
-  margin: 0;
-} */
-/* .actors-icons:hover,
-.actors-icons:focus {
-} */
-
 /* main section 4 */
 
 .clients {
@@ -451,6 +417,7 @@ p {
 .footer-addresses {
   display: flex;
   margin: 0;
+  padding: 0;
 }
 .media-title {
   margin-bottom: 20px;
@@ -464,7 +431,6 @@ p {
   height: 44px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
-
   margin-right: 10px;
   padding: 0;
   list-style: none;
@@ -472,7 +438,6 @@ p {
 .footer-social:hover,
 .footer-social:focus {
   background: #2196f3;
-
 }
 
 .footer-actors-icons {
@@ -493,9 +458,7 @@ p {
   justify-content: center;
   align-items: center;
 }
-.footer-logo {
-  display: flex;
-}
+
 .footer-email {
   display: flex;
   margin-top: 9px;
@@ -505,6 +468,7 @@ p {
   margin-top: 9px;
 }
 .footer-logo {
+  display: flex;
   margin-bottom: 20px;
   font-style: normal;
 }
