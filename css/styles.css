@@ -64,6 +64,9 @@ p {
 }
 
 
+.header-container .link {
+}
+
 .header-wrapper {
   margin-left: auto;
   padding-left: 0;
@@ -445,6 +448,11 @@ p {
   background-color: var(--hero-footer-background-color);
   color: var(--secondary-text-color);
 }
+.footer-list {
+  display: flex;
+  list-style: none;
+}
+
 .footer-logo {
   display: flex;
 }
