@@ -442,17 +442,39 @@ p {
 /* footer */
 
 .footer {
-  /* display: flex; */
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--hero-footer-background-color);
   color: var(--secondary-text-color);
 }
-.footer-list {
+
+.footer-addresses {
   display: flex;
+  margin: 0;
+}
+.media-title {
+  margin-bottom: 20px;
+}
+.footer-list {
+  list-style: none;
+  margin-right: 70px;
+}
+.footer-social {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  padding: 0;
   list-style: none;
 }
-
+.footer-links {
+  display: flex;
+  padding: 0;
+}
+.footer-button {
+  
+  justify-content: center;
+  align-items: center;
+}
 .footer-logo {
   display: flex;
 }
