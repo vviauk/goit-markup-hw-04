@@ -309,8 +309,7 @@ p {
   width: 44px;
   height: 44px;
   margin-right: 10px;
-  /* border-radius: 50%;
-  border: 1px solid #afb1b8; */
+  border-radius: 50%;
 }
 .actor-media-list:last-child {
   margin-right: 0;
@@ -333,8 +332,7 @@ p {
 
 .actor-media-list-icon:hover,
 .actor-media-list-icon:focus {
-  fill: #2196f3;
-  border: 1px solid #2196f3;
+  background-color: #2196f3;
   border-radius: 50%;
 }
 
