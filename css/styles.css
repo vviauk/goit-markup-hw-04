@@ -373,6 +373,12 @@ p {
 .clients-logo.focus {
   color: #2196F3;
 }
+.clients-logo-icons {
+  /* display: flex; */
+  justify-content: center;
+  text-align: center;
+  
+}
 
 /* footer */
 
