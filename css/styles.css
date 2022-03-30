@@ -68,7 +68,7 @@ p {
   color: #757575;
 }
 .header-wrapper {
-  margin-left: auto;
+  margin: 0;
   padding-left: 0;
   display: flex;
   align-items: center;
@@ -317,13 +317,14 @@ p {
 }
 .actors {
   font-weight: 500;
-  line-height: 1.19;
+  font-size: 16px;
+  line-height: 19px;
 }
 .actors-roles {
   margin-top: 10px;
   margin-bottom: 16px;
   color: rgba(117, 117, 117, 1);
-  font-weight: normal;
+  line-height: 19px;
 }
 .actors-links {
   margin-top: 16px;
