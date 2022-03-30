@@ -159,8 +159,8 @@ p {
 /* hero */
 
 .hero {
-  max-width: 1600px;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 92, 58, 0.4)),
+  /* max-width: 1600px; */
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/background.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -182,6 +182,7 @@ p {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+
 .hero-order-button {
   display: inline-block;
   padding: 10px 32px;
@@ -200,7 +201,7 @@ p {
 }
 .hero-order-button:hover,
 .hero-order-button:focus {
-  color: rgba(24, 140, 232, 1);
+  background-color: #188ce8;
 }
 
 /* main section 1*/
@@ -228,10 +229,13 @@ p {
 .thumb {
   display: flex;
   align-items: center;
-  padding-left: 100px;
-  padding-right: 100px;
+  justify-content: center;
+  min-width: 270px;
+  min-height: 120px;
   margin-top: 0px;
   margin-bottom: 30px;
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 .thumb-icons {
   display: grid;
@@ -369,7 +373,6 @@ p {
   text-align: center;
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: rgba(245, 244, 250, 1);
 }
 .clients-list {
   display: flex;
@@ -394,6 +397,7 @@ p {
   align-items: center;
   justify-content: center;
   border: 1px solid #afb1b8;
+  border-radius: 4px;
   width: 100%;
   height: 100%;
   fill: #afb1b8;
@@ -421,10 +425,21 @@ p {
 }
 .media-title {
   margin-bottom: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  /* align-items: baseline; */
+
 }
 .footer-list {
   list-style: none;
   margin-right: 70px;
+  /* align-items: baseline; */
 }
 .footer-social {
   width: 44px;
